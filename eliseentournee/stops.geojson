@@ -168,7 +168,8 @@
   "info": {
     "idx": 13,
     "name": "Café de la Table Ronde, Grenoble",
-    "img": "IMG_3232.JPG"
+    "img": "IMG_3232.JPG",
+    "open": 1
   }
 },
 {
@@ -230,7 +231,8 @@
   "info": {
     "idx": 18,
     "name": "Saintes-Maries-de-la-Mer",
-    "img": "IMG_3339.JPG"
+    "img": "IMG_3339.JPG",
+    "open": 1
   }
 },
 {
