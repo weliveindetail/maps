@@ -103,8 +103,10 @@
         if (feature.info) {
           let content = '<b>{0}</b>'.format(feature.info.name);
           if (feature.info.img) {
-            const path = 'eliseentournee/' + feature.info.img;
-            content += '<br><a href="{0}" target="_blank"><img src="{0}" class="thumb"></a>'.format(path);
+            content += ('<br>' +
+              '<a href="eliseentournee/{0}" target="_blank">' +
+                '<img src="eliseentournee/preview/{0}" class="thumb">' +
+              '</a>').format(feature.info.img);
           }
           let p = layer.bindPopup(content, {
             offset: L.point(0, -3),
