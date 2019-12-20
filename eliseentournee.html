@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elise en tournée</title>
+  <style>
+    div#osm-map {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    .thumb {
+      width: 100px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="osm-map"></div>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+  <script>
+    if (!String.prototype.format) {
+      String.prototype.format = function() {
+        var args = Array.prototype.slice.call(arguments);
+        return this.replace(/{(\d+)}/g, function(match, number) {
+          return typeof args[number] != 'undefined'
+            ? args[number]
+            : match
+          ;
+        });
+      };
+    }
+
+    function parseUrlParams(url) {
+      const regex = /[?&]([^=#]+)=([^&#]*)/g;
+      let params = {};
+      let match;
+      while(match = regex.exec(url)) {
+        params[match[1]] = match[2];
+      }
+      return params;
+    }
+
+    function createBaseLayer() {
+      return L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png',
+        { attribution:
+            '<a href="{0}">{1}</a> | &copy; <a href="{2}">{3}</a>'.format(
+              'https://foundation.wikimedia.org/wiki/Maps_Terms_of_Use',
+              'Wikimedia maps', 'http://osm.org/copyright', 'OpenStreetMap')
+        }
+      );
+    }
+
+    function loadGeoJson(fileUrl) {
+      return new Promise(function(resolve, reject) {
+        $.ajax({ url: fileUrl })
+          .fail(() => reject("Error querying " + fileUrl))
+          .done(content => {
+            resolve((typeof content === 'string') ? JSON.parse(content) : content);
+          });
+      });
+    }
+
+    let map = new L.map('osm-map', {
+      center: [49.472272, 12.906684],
+      zoom: 7,
+      zoomControl: true
+    });
+
+    createBaseLayer().addTo(map);
+
+    const markerSizeClass =
+      ".marker-stop {" +
+      "  width: {0}px; height: {0}px;" +
+      "  margin-left: -{1}px; margin-top: -{1}px;" +
+      "}";
+
+    function initDynamicMarkerSizeCSS(px) {
+      let sheet = document.createElement('style');
+      sheet.type = 'text/css';
+      document.getElementsByTagName('head')[0].appendChild(sheet);
+      return sheet.appendChild(
+        document.createTextNode(markerSizeClass.format(px, px / 2)));
+    }
+
+    let dynNodeCSS = initDynamicMarkerSizeCSS(36);
+    map.on("zoomend", () => {
+      const px = Math.max(3, map.getZoom() - 10) * 12;
+      dynNodeCSS.nodeValue = markerSizeClass.format(px, px / 2);
+    });
+
+    let popups = [];
+
+    const options = {
+      onEachFeature: (feature, layer) => {
+        if (feature.info) {
+          let content = '<b>{0}</b>'.format(feature.info.name);
+          if (feature.info.img) {
+            const path = 'eliseentournee/' + feature.info.img;
+            content += '<br><a href="{0}" target="_blank"><img src="{0}" class="thumb"></a>'.format(path);
+          }
+          let p = layer.bindPopup(content, {
+            offset: L.point(0, -3),
+            autoPanPadding: L.point(50, 50),
+            autoClose: false,
+            closeOnClick: false
+          });
+          p.bulkOpen = feature.info.open;
+          p.latlng = L.latLng({
+            lng: feature.geometry.coordinates[0],
+            lat: feature.geometry.coordinates[1]
+          });
+          popups[feature.info.idx] = p;
+        }
+        console.log(feature.geometry.coordinates);
+      },
+      pointToLayer: (feature, latlng) => {
+        return L.marker(latlng, {
+          icon: L.icon({
+            iconUrl: 'marker.png',
+            className: 'marker-stop'
+          })
+        });
+      }
+    };
+
+    loadGeoJson("eliseentournee/stops.geojson").then(json => {
+      console.log(json);
+      L.geoJSON(json, options).addTo(map);
+    }).then(() => {
+      const route = popups.map(p => p.latlng);
+      L.polyline(route, {color: 'red'}).addTo(map);
+
+      const params = parseUrlParams(window.location.href);
+      if (params.hasOwnProperty("select")) {
+        popups[params.select].openPopup();
+      }
+      else if (params.hasOwnProperty("animate")) {
+        let idx = 0;
+        let timer = setInterval(() => {
+          if (idx < popups.length) {
+            while (!popups[idx].bulkOpen) {
+              idx += 1;
+            }
+            popups[idx].openPopup();
+            idx += 1;
+          }
+          else {
+            clearTimeout(timer);
+          }
+        }, 1000);
+      }
+      else {
+        popups.reverse();
+        for (const p of popups) {
+          if (p.bulkOpen) {
+            p.openPopup();
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+[{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.4378029,52.4887534]
+  },
+  "info": {
+    "idx": 0,
+    "name": "Berlin",
+    "img": "IMG_3368b.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.906684,50.902533]
+  },
+  "info": {
+    "idx": 1,
+    "name": "Auerswalde",
+    "img": "IMG_3022.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.941203,49.472272]
+  },
+  "info": {
+    "idx": 2,
+    "name": "Fürth",
+    "img": "Fuerth.jpg",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.293901,48.129722]
+  },
+  "info": {
+    "idx": 4,
+    "name": "Ammerschwihr"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.359484,48.205737]
+  },
+  "info": {
+    "idx": 3,
+    "name": "Bergheim",
+    "img": "IMG_3051.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.5640798,46.5211389]
+  },
+  "info": {
+    "idx": 8,
+    "name": "École Polytechnique Fédérale de Lausanne",
+    "img": "IMG_3130.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.728317,46.632661]
+  },
+  "info": {
+    "idx": 6,
+    "name": "Fromagerie du Haut-Jorat",
+    "img": "IMG_3257.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.7011157,46.6078072]
+  },
+  "info": {
+    "idx": 7,
+    "name": "Refuge de Riond-Bosson",
+    "img": "IMG_3073.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.742776,46.654599]
+  },
+  "info": {
+    "idx": 5,
+    "name": "Sottens",
+    "img": "P1010701.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.8830488,45.7678819]
+  },
+  "info": {
+    "idx": 9,
+    "name": "Le Bieristan",
+    "img": ".JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.825748,45.762479]
+  },
+  "info": {
+    "idx": 11,
+    "name": "Cathédrale Saint Jean Baptiste",
+    "img": "IMG_3187.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.821929,45.762405]
+  },
+  "info": {
+    "idx": 12,
+    "name": "La Basilique Notre Dame de Fourvière",
+    "img": "IMG_3196.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.843939,45.757050]
+  },
+  "info": {
+    "idx": 10,
+    "name": "Lyon",
+    "img": "IMG_3172.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.728354,45.192857]
+  },
+  "info": {
+    "idx": 13,
+    "name": "Café de la Table Ronde, Grenoble",
+    "img": "IMG_3232.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.207230,44.623322]
+  },
+  "info": {
+    "idx": 14,
+    "name": "Ancelle",
+    "img": "IMG_3283.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.094638,44.142202]
+  },
+  "info": {
+    "idx": 16,
+    "name": "Clos de la Florentine",
+    "img": ".JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.100176,44.136342]
+  },
+  "info": {
+    "idx": 15,
+    "name": "Le Barroux",
+    "img": "Barroux.jpg",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.627168,43.677533]
+  },
+  "info": {
+    "idx": 17,
+    "name": "Le Café Van Gogh, Arles",
+    "img": "IMG_3337.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.429862,43.450204]
+  },
+  "info": {
+    "idx": 18,
+    "name": "Saintes-Maries-de-la-Mer",
+    "img": "IMG_3339.JPG"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [3.491301,43.300616]
+  },
+  "info": {
+    "idx": 19,
+    "name": "Agde"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.365158,43.210037]
+  },
+  "info": {
+    "idx": 20,
+    "name": "Carcassonne",
+    "img": "IMG_3347.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [1.445311,43.590826]
+  },
+  "info": {
+    "idx": 21,
+    "name": "Toulouse",
+    "img": "IMG_3371.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [1.439291,43.720075]
+  },
+  "info": {
+    "idx": 22,
+    "name": "Gratentour"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.574947,43.652615]
+  },
+  "info": {
+    "idx": 23,
+    "name": "Auch"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.442755,43.618252]
+  },
+  "info": {
+    "idx": 24,
+    "name": "Barran",
+    "img": "IMG_3378.JPG",
+    "open": 1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.341470,43.390268]
+  },
+  "info": {
+    "idx": 25,
+    "name": "Sadeillan",
+    "open": 1
+  }
+}]
