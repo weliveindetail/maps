@@ -133,40 +133,42 @@
       }
     };
 
-    loadGeoJson("eliseentournee/stops.geojson").then(json => {
-      console.log(json);
-      L.geoJSON(json, options).addTo(map);
-    }).then(() => {
-      const route = popups.map(p => p.latlng);
-      L.polyline(route, {color: 'red'}).addTo(map);
+    $(() => {
+      loadGeoJson("eliseentournee/stops.geojson").then(json => {
+        console.log(json);
+        L.geoJSON(json, options).addTo(map);
+      }).then(() => {
+        const route = popups.map(p => p.latlng);
+        L.polyline(route, {color: 'red'}).addTo(map);
 
-      const params = parseUrlParams(window.location.href);
-      if (params.hasOwnProperty("select")) {
-        popups[params.select].openPopup();
-      }
-      else if (params.hasOwnProperty("animate")) {
-        let idx = 0;
-        let timer = setInterval(() => {
-          if (idx < popups.length) {
-            while (!popups[idx].bulkOpen) {
+        const params = parseUrlParams(window.location.href);
+        if (params.hasOwnProperty("select")) {
+          popups[params.select].openPopup();
+        }
+        else if (params.hasOwnProperty("animate")) {
+          let idx = 0;
+          let timer = setInterval(() => {
+            if (idx < popups.length) {
+              while (!popups[idx].bulkOpen) {
+                idx += 1;
+              }
+              popups[idx].openPopup();
               idx += 1;
             }
-            popups[idx].openPopup();
-            idx += 1;
-          }
-          else {
-            clearTimeout(timer);
-          }
-        }, 1000);
-      }
-      else {
-        popups.reverse();
-        for (const p of popups) {
-          if (p.bulkOpen) {
-            p.openPopup();
+            else {
+              clearTimeout(timer);
+            }
+          }, 1000);
+        }
+        else {
+          popups.reverse();
+          for (const p of popups) {
+            if (p && p.bulkOpen) {
+              p.openPopup();
+            }
           }
         }
-      }
+      });
     });
   </script>
 </body>
