@@ -8,7 +8,8 @@
     "idx": 0,
     "name": "Berlin",
     "img": "IMG_3368b.JPG",
-    "open": 1
+    "open": 1,
+    "date": "November 2019"
   }
 },
 {
@@ -21,7 +22,8 @@
     "idx": 1,
     "name": "Auerswalde",
     "img": "IMG_3022.JPG",
-    "open": 1
+    "open": 1,
+    "date": "November 2019"
   }
 },
 {
@@ -34,7 +36,8 @@
     "idx": 2,
     "name": "Fürth",
     "img": "Fuerth.jpg",
-    "open": 1
+    "open": 1,
+    "date": "November 2019"
   }
 },
 {
@@ -45,7 +48,8 @@
   },
   "info": {
     "idx": 4,
-    "name": "Ammerschwihr"
+    "name": "Ammerschwihr",
+    "date": "November 2019"
   }
 },
 {
@@ -58,7 +62,8 @@
     "idx": 3,
     "name": "Bergheim",
     "img": "IMG_3051.JPG",
-    "open": 1
+    "open": 1,
+    "date": "November 2019"
   }
 },
 {
@@ -70,7 +75,8 @@
   "info": {
     "idx": 8,
     "name": "École Polytechnique Fédérale de Lausanne",
-    "img": "IMG_3130.JPG"
+    "img": "IMG_3130.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -82,7 +88,8 @@
   "info": {
     "idx": 6,
     "name": "Fromagerie du Haut-Jorat",
-    "img": "IMG_3257.JPG"
+    "img": "IMG_3257.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -94,7 +101,8 @@
   "info": {
     "idx": 7,
     "name": "Refuge de Riond-Bosson",
-    "img": "IMG_3073.JPG"
+    "img": "IMG_3073.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -107,7 +115,8 @@
     "idx": 5,
     "name": "Sottens",
     "img": "P1010701.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -119,7 +128,7 @@
   "info": {
     "idx": 9,
     "name": "Le Bieristan",
-    "img": ""
+    "date": "Dezember 2019"
   }
 },
 {
@@ -131,7 +140,8 @@
   "info": {
     "idx": 11,
     "name": "Cathédrale Saint Jean Baptiste",
-    "img": "IMG_3187.JPG"
+    "img": "IMG_3187.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -143,7 +153,8 @@
   "info": {
     "idx": 12,
     "name": "La Basilique Notre Dame de Fourvière",
-    "img": "IMG_3196.JPG"
+    "img": "IMG_3196.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -156,7 +167,8 @@
     "idx": 10,
     "name": "Lyon",
     "img": "IMG_3172.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -169,7 +181,8 @@
     "idx": 13,
     "name": "Café de la Table Ronde, Grenoble",
     "img": "IMG_3232.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -182,7 +195,8 @@
     "idx": 14,
     "name": "Ancelle",
     "img": "IMG_3283.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -194,7 +208,7 @@
   "info": {
     "idx": 16,
     "name": "Clos de la Florentine",
-    "img": ""
+    "date": "Dezember 2019"
   }
 },
 {
@@ -207,7 +221,8 @@
     "idx": 15,
     "name": "Le Barroux",
     "img": "Barroux.jpg",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -219,7 +234,8 @@
   "info": {
     "idx": 17,
     "name": "Le Café Van Gogh, Arles",
-    "img": "IMG_3337.JPG"
+    "img": "IMG_3337.JPG",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -232,7 +248,8 @@
     "idx": 18,
     "name": "Saintes-Maries-de-la-Mer",
     "img": "IMG_3339.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -243,7 +260,8 @@
   },
   "info": {
     "idx": 19,
-    "name": "Agde"
+    "name": "Agde",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -256,7 +274,8 @@
     "idx": 20,
     "name": "Carcassonne",
     "img": "IMG_3347.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -269,7 +288,8 @@
     "idx": 21,
     "name": "Toulouse",
     "img": "IMG_3371.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -280,7 +300,8 @@
   },
   "info": {
     "idx": 22,
-    "name": "Gratentour"
+    "name": "Gratentour",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -291,7 +312,8 @@
   },
   "info": {
     "idx": 23,
-    "name": "Auch"
+    "name": "Auch",
+    "date": "Dezember 2019"
   }
 },
 {
@@ -304,7 +326,8 @@
     "idx": 24,
     "name": "Barran",
     "img": "IMG_3378.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 },
 {
@@ -317,6 +340,7 @@
     "idx": 25,
     "name": "Sadeillan",
     "img": "IMG_3398.JPG",
-    "open": 1
+    "open": 1,
+    "date": "Dezember 2019"
   }
 }]

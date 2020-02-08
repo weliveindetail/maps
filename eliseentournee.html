@@ -96,6 +96,16 @@
       dynNodeCSS.nodeValue = markerSizeClass.format(px, px / 2);
     });
 
+    function dateToColor(d) {
+      switch (d) {
+        case "November 2019": return 'RoyalBlue';
+        case "Dezember 2019": return 'SeaGreen';
+        case "Januar 2020": return 'Plum';
+        case "Februar 2020": return 'Tomato';
+        default: return 'black';
+      }
+    }
+
     let popups = [];
 
     const options = {
@@ -119,6 +129,7 @@
             lng: feature.geometry.coordinates[0],
             lat: feature.geometry.coordinates[1]
           });
+          p.color = dateToColor(feature.info.date);
           popups[feature.info.idx] = p;
         }
         console.log(feature.geometry.coordinates);
@@ -138,8 +149,12 @@
         console.log(json);
         L.geoJSON(json, options).addTo(map);
       }).then(() => {
+        for (let i = 0; i < popups.length - 1; i++) {
+          const c = popups[i];
+          const n = popups[i + 1];
+          L.polyline([c.latlng, n.latlng], {color: c.color}).addTo(map);
+        }
         const route = popups.map(p => p.latlng);
-        L.polyline(route, {color: 'red'}).addTo(map);
 
         const params = parseUrlParams(window.location.href);
         if (params.hasOwnProperty("select")) {
