@@ -143,7 +143,12 @@
 
         const params = parseUrlParams(window.location.href);
         if (params.hasOwnProperty("select")) {
-          popups[params.select].openPopup();
+          if (params.select == "latest") {
+            popups[popups.length - 1].openPopup();
+          }
+          else {
+            popups[params.select].openPopup();
+          }
         }
         else if (params.hasOwnProperty("animate")) {
           let idx = 0;
