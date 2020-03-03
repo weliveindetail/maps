@@ -99,9 +99,10 @@
     function dateToColor(d) {
       switch (d) {
         case "November 2019": return 'RoyalBlue';
-        case "Dezember 2019": return 'SeaGreen';
-        case "Januar 2020": return 'Plum';
+        case "Dezember 2019": return 'Plum';
+        case "Januar 2020": return 'SeaGreen';
         case "Februar 2020": return 'Tomato';
+        case "March 2020": return 'rgba(0, 0, 0, 0.25)';
         default: return 'black';
       }
     }
@@ -153,7 +154,7 @@
         for (let i = 0; i < popups.length - 1; i++) {
           const c = popups[i];
           const n = popups[i + 1];
-          L.polyline([c.latlng, n.latlng], {color: c.color}).addTo(map);
+          L.polyline([c.latlng, n.latlng], {color: n.color}).addTo(map);
         }
         const route = popups.map(p => p.latlng);
 
