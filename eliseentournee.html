@@ -107,6 +107,7 @@
     }
 
     let popups = [];
+    let nextPopupIdx = 0;
 
     const options = {
       onEachFeature: (feature, layer) => {
@@ -130,7 +131,7 @@
             lat: feature.geometry.coordinates[1]
           });
           p.color = dateToColor(feature.info.date);
-          popups[feature.info.idx] = p;
+          popups[nextPopupIdx++] = p;
         }
         console.log(feature.geometry.coordinates);
       },

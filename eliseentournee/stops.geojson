@@ -5,7 +5,6 @@
     "coordinates": [13.4378029,52.4887534]
   },
   "info": {
-    "idx": 0,
     "name": "Berlin",
     "img": "IMG_3368b.JPG",
     "open": 1,
@@ -19,7 +18,6 @@
     "coordinates": [12.906684,50.902533]
   },
   "info": {
-    "idx": 1,
     "name": "Auerswalde",
     "img": "IMG_3022.JPG",
     "open": 1,
@@ -33,7 +31,6 @@
     "coordinates": [10.941203,49.472272]
   },
   "info": {
-    "idx": 2,
     "name": "Fürth",
     "img": "Fuerth.jpg",
     "open": 1,
@@ -47,7 +44,6 @@
     "coordinates": [7.293901,48.129722]
   },
   "info": {
-    "idx": 4,
     "name": "Ammerschwihr",
     "date": "November 2019"
   }
@@ -59,7 +55,6 @@
     "coordinates": [7.359484,48.205737]
   },
   "info": {
-    "idx": 3,
     "name": "Bergheim",
     "img": "IMG_3051.JPG",
     "open": 1,
@@ -73,7 +68,6 @@
     "coordinates": [6.5640798,46.5211389]
   },
   "info": {
-    "idx": 8,
     "name": "École Polytechnique Fédérale de Lausanne",
     "img": "IMG_3130.JPG",
     "date": "Dezember 2019"
@@ -86,7 +80,6 @@
     "coordinates": [6.728317,46.632661]
   },
   "info": {
-    "idx": 6,
     "name": "Fromagerie du Haut-Jorat",
     "img": "IMG_3257.JPG",
     "date": "Dezember 2019"
@@ -99,7 +92,6 @@
     "coordinates": [6.7011157,46.6078072]
   },
   "info": {
-    "idx": 7,
     "name": "Refuge de Riond-Bosson",
     "img": "IMG_3073.JPG",
     "date": "Dezember 2019"
@@ -112,7 +104,6 @@
     "coordinates": [6.742776,46.654599]
   },
   "info": {
-    "idx": 5,
     "name": "Sottens",
     "img": "P1010701.JPG",
     "open": 1,
@@ -126,7 +117,6 @@
     "coordinates": [4.8830488,45.7678819]
   },
   "info": {
-    "idx": 9,
     "name": "Le Bieristan",
     "date": "Dezember 2019"
   }
@@ -138,7 +128,6 @@
     "coordinates": [4.825748,45.762479]
   },
   "info": {
-    "idx": 11,
     "name": "Cathédrale Saint Jean Baptiste",
     "img": "IMG_3187.JPG",
     "date": "Dezember 2019"
@@ -151,7 +140,6 @@
     "coordinates": [4.821929,45.762405]
   },
   "info": {
-    "idx": 12,
     "name": "La Basilique Notre Dame de Fourvière",
     "img": "IMG_3196.JPG",
     "date": "Dezember 2019"
@@ -164,7 +152,6 @@
     "coordinates": [4.843939,45.757050]
   },
   "info": {
-    "idx": 10,
     "name": "Lyon",
     "img": "IMG_3172.JPG",
     "open": 1,
@@ -178,7 +165,6 @@
     "coordinates": [5.728354,45.192857]
   },
   "info": {
-    "idx": 13,
     "name": "Café de la Table Ronde, Grenoble",
     "img": "IMG_3232.JPG",
     "open": 1,
@@ -192,7 +178,6 @@
     "coordinates": [6.207230,44.623322]
   },
   "info": {
-    "idx": 14,
     "name": "Ancelle",
     "img": "IMG_3283.JPG",
     "open": 1,
@@ -206,7 +191,6 @@
     "coordinates": [5.094638,44.142202]
   },
   "info": {
-    "idx": 16,
     "name": "Clos de la Florentine",
     "date": "Dezember 2019"
   }
@@ -218,7 +202,6 @@
     "coordinates": [5.100176,44.136342]
   },
   "info": {
-    "idx": 15,
     "name": "Le Barroux",
     "img": "Barroux.jpg",
     "open": 1,
@@ -232,7 +215,6 @@
     "coordinates": [4.627168,43.677533]
   },
   "info": {
-    "idx": 17,
     "name": "Le Café Van Gogh, Arles",
     "img": "IMG_3337.JPG",
     "date": "Dezember 2019"
@@ -245,7 +227,6 @@
     "coordinates": [4.429862,43.450204]
   },
   "info": {
-    "idx": 18,
     "name": "Saintes-Maries-de-la-Mer",
     "img": "IMG_3339.JPG",
     "open": 1,
@@ -259,7 +240,6 @@
     "coordinates": [3.491301,43.300616]
   },
   "info": {
-    "idx": 19,
     "name": "Agde",
     "date": "Dezember 2019"
   }
@@ -271,7 +251,6 @@
     "coordinates": [2.365158,43.210037]
   },
   "info": {
-    "idx": 20,
     "name": "Carcassonne",
     "img": "IMG_3347.JPG",
     "open": 1,
@@ -285,7 +264,6 @@
     "coordinates": [1.445311,43.590826]
   },
   "info": {
-    "idx": 21,
     "name": "Toulouse",
     "img": "IMG_3371.JPG",
     "open": 1,
@@ -299,7 +277,6 @@
     "coordinates": [1.439291,43.720075]
   },
   "info": {
-    "idx": 22,
     "name": "Gratentour",
     "date": "Dezember 2019"
   }
@@ -311,7 +288,6 @@
     "coordinates": [0.574947,43.652615]
   },
   "info": {
-    "idx": 23,
     "name": "Auch",
     "date": "Dezember 2019"
   }
@@ -323,7 +299,6 @@
     "coordinates": [0.442755,43.618252]
   },
   "info": {
-    "idx": 24,
     "name": "Barran",
     "img": "IMG_3378.JPG",
     "open": 1,
@@ -337,7 +312,6 @@
     "coordinates": [0.341470,43.390268]
   },
   "info": {
-    "idx": 25,
     "name": "Sadeillan",
     "img": "IMG_3398.JPG",
     "open": 1,
@@ -351,7 +325,6 @@
     "coordinates": [1.164662,42.926186]
   },
   "info": {
-    "idx": 26,
     "name": "Alos",
     "img": "20200119_160742.jpg",
     "open": 1,
@@ -365,7 +338,6 @@
     "coordinates": [1.761249,42.761179]
   },
   "info": {
-    "idx": 27,
     "name": "Luzenac",
     "img": "IMG_3558.JPG",
     "open": 1,
@@ -379,7 +351,6 @@
     "coordinates": [1.849432,42.655966]
   },
   "info": {
-    "idx": 28,
     "name": "Sources chaudes",
     "img": "IMG_3569.JPG",
     "open": 0,
@@ -393,7 +364,6 @@
     "coordinates": [2.153255,41.413512]
   },
   "info": {
-    "idx": 29,
     "name": "Park Güell",
     "img": "IMG_3609.JPG",
     "open": 0,
@@ -407,7 +377,6 @@
     "coordinates": [2.147784,41.381816]
   },
   "info": {
-    "idx": 30,
     "name": "Barcelona",
     "img": "IMG_3635.JPG",
     "open": 1,
@@ -421,7 +390,6 @@
     "coordinates": [0.392832,40.376771]
   },
   "info": {
-    "idx": 31,
     "name": "Peniscola",
     "img": "IMG_3644.JPG",
     "open": 1,
@@ -435,7 +403,6 @@
     "coordinates": [-2.238454,36.780750]
   },
   "info": {
-    "idx": 32,
     "name": "Cabo de Gata",
     "img": "IMG_3650.JPG",
     "open": 1,
@@ -449,7 +416,6 @@
     "coordinates": [-4.097058,36.733441]
   },
   "info": {
-    "idx": 33,
     "name": "Torre del Mar",
     "img": "IMG_3654.JPG",
     "open": 1,
@@ -463,7 +429,6 @@
     "coordinates": [-4.135303,36.724752]
   },
   "info": {
-    "idx": 34,
     "name": "Almayate",
     "img": "IMG_3658.JPG",
     "open": 0,
@@ -477,7 +442,6 @@
     "coordinates": [-4.377577,36.720857]
   },
   "info": {
-    "idx": 35,
     "name": "Baños del Carmen",
     "img": "IMG_3669.JPG",
     "open": 1,
@@ -491,7 +455,6 @@
     "coordinates": [-4.782716,37.877343]
   },
   "info": {
-    "idx": 36,
     "name": "Córdoba",
     "img": "IMG_3686.JPG",
     "open": 1,
@@ -505,7 +468,6 @@
     "coordinates": [-4.324365,37.617181]
   },
   "info": {
-    "idx": 37,
     "name": "Baena",
     "img": "IMG_3704.JPG",
     "open": 1,
@@ -519,7 +481,6 @@
     "coordinates": [-4.315367,37.544318]
   },
   "info": {
-    "idx": 38,
     "name": "Zuheros",
     "img": "IMG_3730.JPG",
     "open": 1,
@@ -533,7 +494,6 @@
     "coordinates": [-5.314516,37.517771]
   },
   "info": {
-    "idx": 39,
     "name": "Castillo de la Monclova",
     "img": "IMG_3748.JPG",
     "open": 1,
@@ -547,7 +507,6 @@
     "coordinates": [-5.638732,37.472569]
   },
   "info": {
-    "idx": 40,
     "name": "Carmona",
     "img": "IMG_3751.JPG",
     "open": 1,
@@ -561,7 +520,6 @@
     "coordinates": [-5.996957,37.386958]
   },
   "info": {
-    "idx": 41,
     "name": "Sevilla",
     "img": "20200205_124605.jpg",
     "open": 1,
@@ -575,7 +533,6 @@
     "coordinates": [-6.382350,37.242026]
   },
   "info": {
-    "idx": 42,
     "name": "Doñarrayan Park Camping",
     "img": "IMG_3761.JPG",
     "open": 1,
@@ -589,7 +546,6 @@
     "coordinates": [-6.949875,37.253259]
   },
   "info": {
-    "idx": 43,
     "name": "Huelva",
     "date": "Februar 2020"
   }
@@ -601,7 +557,6 @@
     "coordinates": [-7.023489,37.271643]
   },
   "info": {
-    "idx": 44,
     "name": "Aljaraque",
     "img": "IMG_3782.JPG",
     "open": 0,
@@ -615,7 +570,19 @@
     "coordinates": [-7.736409,37.070367]
   },
   "info": {
-    "idx": 45,
+    "name": "Monte dos Avós",
+    "img": "20200208_170619.jpg",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-7.736409,37.070367]
+  },
+  "info": {
     "name": "Monte dos Avós",
     "img": "20200208_170619.jpg",
     "open": 1,
