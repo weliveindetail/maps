@@ -588,5 +588,225 @@
     "open": 1,
     "date": "Februar 2020"
   }
-}
-]
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.5167793,37.086459]
+  },
+  "info": {
+    "name": "Praia de Falésia Açoteias",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.995865,37.023194]
+  },
+  "info": {
+    "name": "Cabo de São Vicente",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.901525,37.198369]
+  },
+  "info": {
+    "name": "Praia de Bordeira",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.797729,37.441789]
+  },
+  "info": {
+    "name": "Praia de Odeceixe",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.785863,37.524970]
+  },
+  "info": {
+    "name": "Hostel Nature",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.508643,38.371804]
+  },
+  "info": {
+    "name": "Alcácer do Sal",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-9.122417,38.717827]
+  },
+  "info": {
+    "name": "Lisboa",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.802050,39.740595]
+  },
+  "info": {
+    "name": "Leiria",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.650834,40.642459]
+  },
+  "info": {
+    "name": "Aveiro",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.604424,41.150992]
+  },
+  "info": {
+    "name": "Porto",
+    "img": "",
+    "open": 1,
+    "date": "Februar 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.292449,41.445267]
+  },
+  "info": {
+    "name": "Guimarães",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.128139,41.700667]
+  },
+  "info": {
+    "name": "Ermida",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.341470,43.390268]
+  },
+  "info": {
+    "name": "Sadeillan",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.742776,46.654599]
+  },
+  "info": {
+    "name": "Sottens",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.941203,49.472272]
+  },
+  "info": {
+    "name": "Fürth",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.906684,50.902533]
+  },
+  "info": {
+    "name": "Auerswalde",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.4378029,52.4887534]
+  },
+  "info": {
+    "name": "Berlin",
+    "img": "",
+    "open": 1,
+    "date": "March 2020"
+  }
+}]
